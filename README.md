@@ -4,7 +4,7 @@
   Perform stock analysis to identify best stock for the investment. 
 
 ### Purpose
-  The purpose of this project is to analyze list of green energy stock for couple of years and identify the profitable stock investment option.
+  The purpose of this project is to analyze list of green energy stock and identify the profitable stock investment option.
 
 ## Results
 ### Data Analysis Results
@@ -12,27 +12,27 @@
 
 <img width="677" alt="2017_2018_results" src="https://user-images.githubusercontent.com/83181834/117188746-40449900-ad92-11eb-8df6-c02027002916.png">
 
-There are many green energy stock which fared well in 2017 dropped their return in 2018. Based on this analysis ENPH and RUN are the two stocks which consistently performed well in 2017 and 2018 by increasing its trading volume and the return. ENPH and RUN are good stocks to investment for better return.
+There are many green energy stock which fared well in 2017 dropped their return in 2018. Based on this analysis ENPH and RUN are the two stocks which consistently performed well in 2017 and 2018 by increasing its trading volume and the return. ENPH and RUN are good stocks to invest for better return.
 
 ### VBA Script Analysis Results
 
 #### Code Comparison
-Analysis results are achieved by two methods - Original script and refracted script.
-	* Original script uses variable to store the data while looping through all records checking various conditions and printing the results for the whole dataset.
-	* Refracted script follows similar approach but stores the data in arrays which loop through all the data one time to collect the same information but more efficiently.
+Analysis results are achieved using two methods - Original script and refracted script.
+* Original script uses variable to store the data while looping through all records checking various conditions and printing the results for the whole dataset.
+* Refracted script follows similar approach but stores the data in arrays which loop through all the data one time to collect the same information and storing inside array.
 	
   
-#### Example
+##### Example
 
-**Original Script snapshot**
+	**Original Script snapshot**
 In the below snapshot, calculation of volume, starting price , ending price by validating data for conditions and printing the data in excel all happening inside nested for loop. Since the same variables are used for each ticker we are processing in this approach but this will result in more processing time if we have million records in dataset.
 	
   <img width="677" alt="Original_Script" src="https://user-images.githubusercontent.com/83181834/117189182-be08a480-ad92-11eb-80c0-c25f3f192dba.png">
   
 
 	
-**Refracted script snapshot**
-In the below snapshot,  calculation of volume, starting price , ending price by validating data for conditions happening inside nested for loop and storing the data in respectable arrays. While printing, we need to access the arrays which has fewers rows than whole dataset. 
+	**Refracted script snapshot**
+In the below snapshot,  calculation of volume, starting price , ending price by validating data for conditions happening inside nested for loop and storing the data in respectable arrays. While printing, we need to access the arrays which has fewer rows than whole dataset. 
 
   <img width="709" alt="Refracted_code" src="https://user-images.githubusercontent.com/83181834/117189200-c2cd5880-ad92-11eb-8192-ccbefaa03cfc.png">
 
@@ -47,3 +47,8 @@ Capturing the execution time of code helps in analyzing the components and impro
 
 ## Summary
 
+* Advantage of refracted code: Refracted code is simpler and easier to understand and improve the performance
+* Disadvantage of refracted code: Refracted code is time consuming and it can potentially introduce code bug or errors
+
+* Pros of refracted VBA Script: VBA refracted script run faster with same dataset. Code is looks cleaner and more efficient
+* Cons of original VBA Script: Although the code looks cleaner it was time consuming to write refracted version of the code to achieve same result when the original code is giving same result.
