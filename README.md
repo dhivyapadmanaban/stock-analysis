@@ -47,8 +47,9 @@ Capturing the execution time of code helps in analyzing the components and impro
 
 ## Summary
 
-* Advantage of refracted code: Refracted code is simpler and easier to understand and improve the performance
-* Disadvantage of refracted code: Refracted code is time consuming and it can potentially introduce code bug or errors
+* Advantage of refracted code: Refracted code is simpler and easier to understand and improves the performance.
+* Disadvantage of refracted code: Refracted code is time consuming and it can potentially introduce code bug or errors.
 
-* Pros of refracted VBA Script: VBA refracted script run faster with same dataset. Code is looks cleaner and more efficient
+
+* Pros of refracted VBA Script: VBA refracted script run faster than original script for the same dataset. Code looks cleaner, efficient and perform well with larger dataset.
 * Cons of original VBA Script: Although the code looks cleaner it was time consuming to write refracted version of the code to achieve same result when the original code is giving same result.
