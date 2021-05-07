@@ -8,7 +8,7 @@
 
 ## Results
 ### Data Analysis Results
-  Below is the summarized result of green energy stock dataset.
+  Here is the summarized result of green energy stock dataset.
 
 <img width="677" alt="2017_2018_results" src="https://user-images.githubusercontent.com/83181834/117188746-40449900-ad92-11eb-8df6-c02027002916.png">
 
